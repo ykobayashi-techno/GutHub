@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "松本 ヒロ",
+    "ruby": "まつもと ひろ",
+    "sex": "男",
+    "age": "58",
+    "birthday": "1956/7/30",
+    "prefecture": "大阪府",
+    "carrier": "ドコモ"
+  },
+  {
+    "id": 2,
+    "name": "堀北 幸平",
+    "ruby": "ほりきた こうへい",
+    "sex": "男",
+    "age": "73",
+    "birthday": "1941/8/27",
+    "prefecture": "埼玉県",
+    "carrier": "ドコモ"
+  },
+  {
+    "id": 3,
+    "name": "楠 ジローラモ",
+    "ruby": "くすのき じろーらも",
+    "sex": "男",
+    "age": "43",
+    "birthday": "1971/5/2",
+    "prefecture": "埼玉県",
+    "carrier": "ソフトバンク"
+  },
+  {
+    "id": 4,
+    "name": "河原 長利",
+    "ruby": "かわはら ながとし",
+    "sex": "男",
+    "age": "56",
+    "birthday": "1959/1/5",
+    "prefecture": "福岡県",
+    "carrier": "ドコモ"
+  },
+  {
+    "id": 5,
+    "name": "井本 晴臣",
+    "ruby": "いもと はるおみ",
+    "sex": "男",
+    "age": "53",
+    "birthday": "1961/9/25",
+    "prefecture": "愛知県",
+    "carrier": "ソフトバンク"
+  }
+]
