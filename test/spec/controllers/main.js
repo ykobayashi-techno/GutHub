@@ -16,7 +16,7 @@ describe('Controller: MainCtrl', function () {
       $scope: scope
     });
     $httpBackend = _$httpBackend_;
-    $httpBackend.expectGET('datas/users.json').
+    $httpBackend.expectGET('data/users.json').
       respond([{ id:1, name: 'User 1'}, { id:2, name: 'User 2'}]);
   }));
 
