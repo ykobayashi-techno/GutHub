@@ -6,7 +6,7 @@ describe('Controller: MainCtrl', function () {
     scope;
 
   // load the controller's module
-  beforeEach(module('gutHubApp'));
+  beforeEach(module('gutHubApp'))
   beforeEach(module('userServices'));
 
   // Initialize the controller and a mock scope
@@ -16,7 +16,7 @@ describe('Controller: MainCtrl', function () {
       $scope: scope
     });
     $httpBackend = _$httpBackend_;
-    $httpBackend.expectGET('data/users.json').
+    $httpBackend.expectGET('users/users.json').
       respond([{ id:1, name: 'User 1'}, { id:2, name: 'User 2'}]);
   }));
 

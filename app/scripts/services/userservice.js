@@ -10,7 +10,7 @@
 var service = angular.module('userServices', ['ngResource']);
 
 service.factory('Users', ['$resource', function($resource) {
-  return $resource('data/:users.json', {}, {
+  return $resource('users/:users.json', {}, {
     query: { method:'GET', params:{ users:'users' }, isArray:true }
   });
 }]);
