@@ -14,3 +14,7 @@ service.factory('Users', ['$resource', function($resource) {
     query: { method:'GET', params:{ users:'users' }, isArray:true }
   });
 }]);
+
+service.factory('User', ['$resource', function($resource) {
+  return $resource('data/users/:user_id.json');
+}]);

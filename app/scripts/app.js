@@ -18,11 +18,19 @@ angular
     'ngTouch',
     'userServices'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
     $routeProvider
       .when('/', {
+        redirectTo: '/user'
+      })
+      .when('/user', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
+      })
+      .when('/user/:userId', {
+        templateUrl: 'views/user_detail.html',
+        controller: 'UserDetailCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
